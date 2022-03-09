@@ -29,7 +29,7 @@ fun main() {
             telefone
         )
 
-        while(true){
+        while (true){
 
             println("\nMENU\n")
 

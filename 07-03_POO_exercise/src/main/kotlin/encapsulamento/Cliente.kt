@@ -1,6 +1,5 @@
 package encapsulamento
 
-
     class Cliente (private val nome: String) {
 
         private var endereco = ""
@@ -51,6 +50,11 @@ package encapsulamento
             listaDeCompras.forEach {
                 println(it)
             }
+        }
+
+        fun totalCompras(): Int{
+            return listaDeCompras.size
+
         }
 
     }
